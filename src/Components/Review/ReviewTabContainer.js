@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Dialog from '@material-ui/core/Dialog';
-import ReviewForm from "./reviewForm"
+import ReviewForm from "./ReviewForm"
 
 export default function ReviewTabContainer({ productName, productId }) {
     const [openStatus, setOpen] = useState(false)

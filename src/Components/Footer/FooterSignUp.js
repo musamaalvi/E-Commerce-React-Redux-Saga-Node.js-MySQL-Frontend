@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import { Button } from '@material-ui/core';
-import SignUpModal from './signUpModal';
+import SignUpModal from './SignUpModal';
 
 const useFooterSignUp = () => {
     const [openModal, setOpenModal] = useState(false);

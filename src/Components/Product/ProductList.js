@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductContainer from './productContainer';
+import ProductContainer from './ProductContainer';
 
 export default function ProductList({ display }) {
 

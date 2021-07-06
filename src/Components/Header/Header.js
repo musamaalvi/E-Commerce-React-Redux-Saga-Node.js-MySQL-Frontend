@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import CartDrawer from "../cart/cartDrawer";
+import CartDrawer from '../Cart/CartDrawer'
 import Divider from '@material-ui/core/Divider';
-import NavBar from "./navBar"
+import NavBar from './NavBar'
 
 const useStyles = makeStyles(theme => ({
     menuButton: {

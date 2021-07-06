@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux'
-import { addToCartThunk } from '../../actions/cart.action';
+import { addToCartThunk } from '../../Actions/cart.action';
 
 export default function useAddToCart(product, size, currency) {
     const dispatch = useDispatch();

@@ -1,9 +1,9 @@
 import React, { useState,  Fragment } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { selectCurrency } from "../selectors";
+import { selectCurrency } from "../Selectors";
 import { Button, Dialog } from '@material-ui/core';
-import CurrencyForm from "./currencyForm"
-import { updateCurrency } from "../../actions/cart.action"
+import CurrencyForm from "./CurrencyForm"
+import { updateCurrency } from "../../Actions/cart.action"
 
 export function useCurrency() {
     const [openStatus, setOpen] = useState(false)

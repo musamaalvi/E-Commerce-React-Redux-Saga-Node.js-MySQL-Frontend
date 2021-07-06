@@ -1,4 +1,4 @@
-import { SAVE_SEARCH_INPUT} from "../actions/action.types";
+import { SAVE_SEARCH_INPUT} from "../Actions/action.types";
 
 let initialState = {
     input: []

@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from "react-redux"
 import PaypalExpressBtn from 'react-paypal-express-checkout';
 import { usePaypal } from './hooks';
-import {selectCurrency, selectTotal} from "../selectors"
+import {selectCurrency, selectTotal} from "../Selectors"
 
 const CLIENT = {
     sandbox: 'AUsHUsDNDqG5Hev6xTdRxuViWHAQU-xHqMahjGuI4pv3xL4JS1mAJVLhF_YXKkrRNPkfRp4v_1lJnMZt',

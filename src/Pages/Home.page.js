@@ -1,7 +1,7 @@
 import React from 'react';
-import ProductList from '../components/product/productList';
+import ProductList from '../Components/Product/ProductList';
 import { Button } from '@material-ui/core';
-import { findNewReleases } from '../actions/search.action';
+import { findNewReleases } from '../Actions/search.action';
 import history from '../history';
 import { Row, Col } from 'reactstrap';
 

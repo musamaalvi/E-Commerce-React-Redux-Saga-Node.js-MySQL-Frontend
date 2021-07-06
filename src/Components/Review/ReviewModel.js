@@ -1,5 +1,5 @@
 
-import { getReviewsByProductId } from "./apiCalls"
+import { getReviewsByProductId } from "./ApiCalls"
 
 
 

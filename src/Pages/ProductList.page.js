@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector } from "react-redux"
-import { findSalesItems } from "../actions/search.action"
-import Sorting from '../components/filterSorting/sorting';
-import Filter from "../components/filterSorting/filter"
-import ProductList from "../components/product/productList"
+import { findSalesItems } from "../Actions/search.action"
+import Sorting from '../Components/FilterSorting/Sorting';
+import Filter from '../Components/FilterSorting/Filter'
+import ProductList from "../Components/Product/ProductList"
 import { categoryData, categoryDataHighToLow, categoryDataLowToHigh, newest } from "../data/category.data"
 import { Col, Row } from "reactstrap"
 

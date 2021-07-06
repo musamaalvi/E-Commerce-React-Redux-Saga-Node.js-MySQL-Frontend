@@ -1,8 +1,8 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import { Button, Typography, TextareaAutosize } from '@material-ui/core';
-import ReviewStarRating from "./reviewStarRating"
-import ReviewBarRating from "./reviewBarRating"
+import ReviewStarRating from "./ReviewStarRating"
+import ReviewBarRating from "./ReviewBarRating"
 import useReviewForm from "./useReviewForm"
 import { Col } from "reactstrap"
 

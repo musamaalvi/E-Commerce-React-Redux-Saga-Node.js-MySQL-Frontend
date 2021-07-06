@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductListPage from "./productList.page"
+import ProductListPage from "./ProductList.page"
 
 export default function Sales() {
 
