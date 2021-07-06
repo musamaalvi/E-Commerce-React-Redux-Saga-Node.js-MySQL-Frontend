@@ -6,7 +6,7 @@ import Filter from '../Components/FilterSorting/Filter'
 import ProductList from "../Components/Product/ProductList"
 import { categoryData, categoryDataHighToLow, categoryDataLowToHigh, newest } from "../data/category.data"
 import { Col, Row } from "reactstrap"
-
+import './product.css'
 export function useDisplay(filter) {
     let initialData = filter === "sales" ? findSalesItems() : categoryData
 
@@ -50,12 +50,12 @@ export default function ProductListPage({ sales }) {
 
     return (
         <div className="AllProducts">
-            <Row className="ml-auto">
+            <Row className="">
                 <Col xs={12} md={3}>
                     <Sorting onSort={sortDisplayList} />
                     <Filter handleFilter={handleFilter} />
                 </Col>
-                <Col xs={12} md={9}>
+                <Col xs={12} md={9} className="product_testing">
                     <ProductList display={displayData} />
                 </Col>
             </Row>
