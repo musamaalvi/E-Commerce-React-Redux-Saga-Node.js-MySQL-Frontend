@@ -3,7 +3,7 @@ export const stockData = [
     productId: 1,
     stock: [
       {
-        size: "XS",
+        size: "Regular",
         quantity: 10
       },
       {
@@ -28,8 +28,8 @@ export const stockData = [
     productId: 2,
     stock: [
       {
-        size: "XS",
-        quantity: 0
+        size: "Regular",
+        quantity: 10
       },
       {
         size: "S",
@@ -53,11 +53,11 @@ export const stockData = [
     productId: 3,
     stock: [
       {
-        size: "XS",
-        quantity: 0
+        size: "Regular",
+        quantity: 10
       },
       {
-        size: "S",
+        size: "Regular",
         quantity: 10
       },
       {
@@ -78,7 +78,7 @@ export const stockData = [
     productId: 4,
     stock: [
       {
-        size: "XS",
+        size: "Regular",
         quantity: 10
       },
       {
@@ -103,7 +103,7 @@ export const stockData = [
     productId: 5,
     stock: [
       {
-        size: "XS",
+        size: "Regular",
         quantity: 10
       },
       {

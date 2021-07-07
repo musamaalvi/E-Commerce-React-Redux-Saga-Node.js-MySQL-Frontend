@@ -1,4 +1,4 @@
 const sizeList = { title: "Size",
-items: ["XS", "S", "M", "L", "XL"]}
+items: ["Regular"]}
 
 export default sizeList;
