@@ -6,14 +6,14 @@ import { Fragment } from 'react';
 import ProductReviewItem from "./ProductReviewItem"
 import { v4 as uuidv4 } from 'uuid';
 
-const data = [
+let data = [
     {
         title: "Detail",
         body: " Combining our signature seamless knit with superior, sculpting design.• Figure - enhancing contours• Elasticated jacquard waistband• DRY technology• 56 % Nylon, 41 % Polyester, 3 % Elastane• Model is 5'5"
     },
     {
         title: "Care",
-        body: "Machine wash or hand wash with cold water. Do not dry clean it."
+        body: "Do not use Water for cleaning"
     },
     {
         title: "Delivery",
@@ -21,7 +21,8 @@ const data = [
     }
 ]
 
-const ProductInstruction = ({reviews}) => {
+const ProductInstruction = ({reviews, review_body}) => {
+    data[0].body = review_body
     return (
         <List
             style={{ textAlign: "center", alignItems: "center" }}

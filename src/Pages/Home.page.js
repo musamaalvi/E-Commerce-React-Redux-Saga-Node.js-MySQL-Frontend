@@ -20,7 +20,7 @@ export default function Homepage() {
             <div>
                 <Row className="hp-new-release">
                     <Col sm={4} md={4}>
-                        <b className="womens"> WOMENS</b>
+                        <b className="womens"> GAMING</b>
                         <br />
                         <b className="new-release">NEW RELEASES</b>
                     </Col>

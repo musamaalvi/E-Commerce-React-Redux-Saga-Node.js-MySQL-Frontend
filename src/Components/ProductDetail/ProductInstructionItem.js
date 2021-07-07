@@ -9,7 +9,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 export default function EachProductInstruction({data}) {
     const [open, setOpen] = React.useState(false);
-
+    debugger
     return (
         <div className="ProductInstruction" key={uuidv4()}>
             <ListItem button onClick={() => {

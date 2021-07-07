@@ -18,7 +18,7 @@ export default function RightSideData({ id }) {
     const currency = useSelector(selectCurrency)
 
     const { handleAddToCart } = useAddToCart(product, size, currency)
-
+     
     const price = currency === "AUD" ? product.AUprice : product.USprice
 
     const handleChangeSize = value => {
@@ -46,7 +46,7 @@ export default function RightSideData({ id }) {
             <p className="select-size">SELECT SIZE</p>
             <SizeTab onChange={size => handleChangeSize(size)} sizeDisplay={sizeAvailability} />
             <Button variant="outlined" id="add-to-cart-btn" onClick={handleAddToCart}><b>Add to Cart</b> </Button>
-            <ProductInstruction reviews={reviewBody} />
+            <ProductInstruction reviews={reviewBody} review_body={product.body}/>
         </div>
     )
 
