@@ -20,7 +20,7 @@ const NavBar = ({ openDrawer }) => {
         <Navbar className="nav-bar" bg="light" variant="light">
             <MobileMenu handleClick={openDrawer} />
             <Nav className="nav-bar-links">
-                {navLinks.map(each => (<NavLink key={each.label} href={each.href}>{each.label}</NavLink>))}
+                {navLinks.map(each => (<NavLink styles={NavBar} key={each.label} onClick={() => history.push(each.href)}> {each.label}</NavLink>))}
             </Nav>
             <Form inline className="ml-auto desktop">
                 <CurrencyHOC />
